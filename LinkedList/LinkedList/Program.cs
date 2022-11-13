@@ -6,15 +6,11 @@
         {
             Console.WriteLine("This is UnOrdered LinkedList API Program");
 
-            LinkedList<int> numberLst = new LinkedList<int>();
-            numberLst.AddLast(56);
-            numberLst.AddLast(30);
-            numberLst.AddLast(70);
-
-            foreach (int item in numberLst)
-            {
-                Console.WriteLine(item);
-            }
+            LinkedList list = new LinkedList();
+            list.Add(56);
+            list.Add(30);
+            list.Add(70);
+            list.Display();
 
         }
     }
