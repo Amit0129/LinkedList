@@ -12,6 +12,8 @@
             list.Add(70);
             list.Display();
 
+            //The Append Method is Same As Add Method Show in Program But We need Ins Sequence
+
         }
     }
 }
